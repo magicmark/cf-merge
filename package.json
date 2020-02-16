@@ -1,10 +1,16 @@
 {
   "name": "@magicmark/cf-merge",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Tool to import and merge sections of CloudFormation yaml",
   "main": "lib/index.js",
   "author": "Mark Larah <mark@larah.me>",
   "license": "MIT",
+  "scripts": {
+    "test": "ava"
+  },
+  "bin": {
+    "cf-merge": "lib/index.js"
+  },
   "devDependencies": {
     "ava": "^3.3.0",
     "dedent": "^0.7.0",
@@ -13,6 +19,10 @@
   },
   "dependencies": {
     "is-relative": "^1.0.0",
+    "tempy": "^0.4.0",
     "yargs": "^15.1.0"
-  }
+  },
+  "files": [
+    "lib"
+  ]
 }
