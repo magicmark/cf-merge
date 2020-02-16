@@ -6,9 +6,13 @@
   "author": "Mark Larah <mark@larah.me>",
   "license": "MIT",
   "devDependencies": {
-    "ava": "^3.3.0"
+    "ava": "^3.3.0",
+    "dedent": "^0.7.0",
+    "fs-monkey": "^0.3.3",
+    "memfs": "^3.0.5"
   },
   "dependencies": {
+    "is-relative": "^1.0.0",
     "yargs": "^15.1.0"
   }
 }
