@@ -1,6 +1,6 @@
 {
   "name": "@magicmark/cf-merge",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Tool to import and merge sections of CloudFormation yaml",
   "main": "lib/index.js",
   "author": "Mark Larah <mark@larah.me>",
