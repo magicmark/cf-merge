@@ -49,7 +49,7 @@ aws cloudformation deploy \
   --template-file "$(yarn cf-merge main.yml --tmpfile)" \
 ```
 
-## CLI API Docs
+### CLI API Docs
 
 ```
 cf-merge <file>
