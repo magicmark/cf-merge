@@ -64,4 +64,14 @@ Options:
                                                                         [string]
   --tmpfile, -t  print template to a tmpfile. prints the filepath to stdout.
                                                       [boolean] [default: false]
-```              
+```
+
+## FAQs
+
+#### Why not use [nested stacks](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-nested-stacks.html)?
+
+cf-merge runs "outside" of CloudFormation, so it lets you arbitrarily import whole sections of yaml from other templates on disk.
+
+#### Why not use \<insert some other tool here>?
+
+I googled and didn't find any other lightweight solutions that that did this. But maybe I missed something! I figure if it does exist, the best way to find out is to publish this and have people let me know about it :)
